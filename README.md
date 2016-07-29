@@ -17,7 +17,7 @@ if (curl_errno($ch)) {
 curl_close ($ch);
 ```
 #Order API
-1. Creating new order
+1. Creating new **order**
 New order will be created and a unique link to the review page will be output.
 ```
 $ch = curl_init();
