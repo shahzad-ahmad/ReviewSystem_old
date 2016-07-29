@@ -7,7 +7,7 @@ curl_setopt($ch, CURLOPT_URL, "http://localhost/reviewSystem/api/oAuth2/token");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, "grant_type=client_credentials");
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_USERPWD, "**Key**:**Secret**");
+curl_setopt($ch, CURLOPT_USERPWD, **"Key**:**Secret"**);
 
 $result = curl_exec($ch);
 print_r($result);
